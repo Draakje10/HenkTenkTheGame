@@ -63,19 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Aligned Games\Polygonal Modern Weapons Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
-    <Compile Include="Assets\Anima.cs" />
-    <Compile Include="Assets\Animation1.cs" />
-    <Compile Include="Assets\GrapplingGun.cs" />
-    <Compile Include="Assets\Health.cs" />
-    <Compile Include="Assets\MoveCamera.cs" />
-    <Compile Include="Assets\PlayerHealth.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
-    <Compile Include="Assets\Shooting.cs" />
-    <Compile Include="Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Assist Examples\DisplayKills.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Effects\SpawnObject.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Effects\SpawnOnHealthEvent.cs" />
@@ -99,7 +87,13 @@
     <Compile Include="Assets\YounGen Tech\Scripts\UI\Tooltip.cs" />
     <Compile Include="Assets\new ai\EnemyController.cs" />
     <Compile Include="Assets\new ai\PlayerManager.cs" />
-    <None Include="Assets\Simple Health Bar\README.txt" />
+    <Compile Include="Assets\scripts\Anima.cs" />
+    <Compile Include="Assets\scripts\Damage.cs" />
+    <Compile Include="Assets\scripts\GrapplingGun.cs" />
+    <Compile Include="Assets\scripts\Health.cs" />
+    <Compile Include="Assets\scripts\MoveCamera.cs" />
+    <Compile Include="Assets\scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\scripts\Shooting.cs" />
     <None Include="Assets\Aligned Games\Polygonal Modern Weapons Asset Package\Shaders\Diffuse.shader" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>C:/Users/Admin/Desktop/game/HenkTenkTheGame/------/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
