@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Aligned Games\Polygonal Modern Weapons Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Assist Examples\DisplayKills.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Effects\SpawnObject.cs" />
     <Compile Include="Assets\YounGen Tech\Health Script\Scripts\Effects\SpawnOnHealthEvent.cs" />
