@@ -97,6 +97,8 @@
     <Compile Include="Assets\YounGen Tech\Scripts\Application\OpenLink.cs" />
     <Compile Include="Assets\YounGen Tech\Scripts\Ownership\Owner.cs" />
     <Compile Include="Assets\YounGen Tech\Scripts\UI\Tooltip.cs" />
+    <Compile Include="Assets\new ai\EnemyController.cs" />
+    <Compile Include="Assets\new ai\PlayerManager.cs" />
     <None Include="Assets\Simple Health Bar\README.txt" />
     <None Include="Assets\Aligned Games\Polygonal Modern Weapons Asset Package\Shaders\Diffuse.shader" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
