@@ -26,7 +26,9 @@ public class pausemenu : MonoBehaviour
             else
             {
                 Pause();
+                SceneManager.LoadScene("Main Menu");
             }
+            
         }
     }
 
