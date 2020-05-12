@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
 	private float m_TimeScaleRef = 1f;
     private float m_VolumeRef = 1f;
     private bool m_Paused;
+    public GameObject UI1;
 
     void Awake()
     {
@@ -41,6 +42,7 @@ public class PauseMenu : MonoBehaviour
         if (m_MenuToggle.isOn && !m_Paused)
         {
             MenuOn();
+
         }
         else if (!m_MenuToggle.isOn && m_Paused)
         {
@@ -56,6 +58,7 @@ public class PauseMenu : MonoBehaviour
 		{
 		    m_MenuToggle.isOn = !m_MenuToggle.isOn;
             Cursor.visible = m_MenuToggle.isOn;//force the cursor visible if anythign had hidden it
+            UI1.SetActive(true);
 		}
 	}
 #endif

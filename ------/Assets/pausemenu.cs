@@ -22,13 +22,16 @@ public class pausemenu : MonoBehaviour
             if (PausedGame)
             {
                 Resume();
+
             }
             else
             {
                 Pause();
-                SceneManager.LoadScene("Main Menu");
             }
-            
+
+
+
+
         }
     }
 
