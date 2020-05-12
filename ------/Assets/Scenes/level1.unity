@@ -326,6 +326,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 255327401}
   m_CullTransparentMesh: 0
 --- !u!1 &290026409
@@ -419,6 +420,8 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
 =======
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_GameObject: {fileID: 290026409}
@@ -963,7 +966,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 862153860}
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &900064130
+=======
+--- !u!1 &946346273
+>>>>>>> parent of 7c854529... IK tentackle thingy
 =======
 --- !u!1 &946346273
 >>>>>>> parent of 7c854529... IK tentackle thingy
@@ -975,6 +982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 900064131}
   - component: {fileID: 900064134}
   - component: {fileID: 900064133}
@@ -982,10 +990,15 @@ GameObject:
   m_Layer: 5
   m_Name: Button
 =======
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
   - component: {fileID: 946346275}
   - component: {fileID: 946346274}
   m_Layer: 0
   m_Name: GameManager
+<<<<<<< HEAD
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -993,8 +1006,12 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &900064131
 RectTransform:
+=======
+--- !u!114 &946346274
+MonoBehaviour:
 =======
 --- !u!114 &946346274
 MonoBehaviour:
@@ -1011,11 +1028,54 @@ MonoBehaviour:
   player: {fileID: 0}
 --- !u!4 &946346275
 Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946346273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.6, y: 57.72, z: -8.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1022281249
+GameObject:
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 946346273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312ac76524513cd4da14b3a3d0b15034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!4 &946346275
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022281250}
+  m_Layer: 0
+  m_Name: hp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022281250
+>>>>>>> parent of 7c854529... IK tentackle thingy
+Transform:
+>>>>>>> parent of 7c854529... IK tentackle thingy
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 900064130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1043,6 +1103,19 @@ MonoBehaviour:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1022281249
+=======
+  m_GameObject: {fileID: 1022281249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 47.572693, y: 25.338226, z: -144.64224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1571887526}
+  - {fileID: 862153861}
+  m_Father: {fileID: 1483334664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1034147149
+>>>>>>> parent of 7c854529... IK tentackle thingy
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1050,21 +1123,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1022281250}
   m_Layer: 0
   m_Name: hp
+=======
+  - component: {fileID: 1034147151}
+  - component: {fileID: 1034147150}
+  - component: {fileID: 1034147152}
+  m_Layer: 0
+  m_Name: EventSystem
+>>>>>>> parent of 7c854529... IK tentackle thingy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1022281250
 Transform:
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
+--- !u!114 &1034147150
+MonoBehaviour:
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 900064130}
   m_Enabled: 1
@@ -1340,6 +1427,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 >>>>>>> parent of 7c854529... IK tentackle thingy
+=======
+  m_GameObject: {fileID: 1034147149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1034147151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034147149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 367.5727, y: 265.33823, z: -144.64226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1034147152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034147149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+>>>>>>> parent of 7c854529... IK tentackle thingy
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1350,6 +1471,7 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &1034147153
 MonoBehaviour:
@@ -1363,6 +1485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8aafc40d80cc4647a3755c51948d4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
 =======
 >>>>>>> parent of 7c854529... IK tentackle thingy
 --- !u!1 &1047467718
@@ -1414,9 +1538,12 @@ Transform:
 <<<<<<< HEAD
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
 --- !u!1 &1068486772 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
@@ -1606,6 +1733,7 @@ MeshFilter:
   m_GameObject: {fileID: 1110340924}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1432830358
 =======
 --- !u!1 &1256540912
@@ -1720,6 +1848,10 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!124 &1442907848
 Behaviour:
+=======
+--- !u!1 &1256540912
+GameObject:
+>>>>>>> parent of 7c854529... IK tentackle thingy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1812,12 +1944,16 @@ MonoBehaviour:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256540914
+<<<<<<< HEAD
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
 >>>>>>> parent of 7c854529... IK tentackle thingy
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1455283876}
   m_Enabled: 1
@@ -1904,6 +2040,8 @@ CapsuleCollider:
 --- !u!20 &1453513856
 Camera:
 =======
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
   m_GameObject: {fileID: 1256540912}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1928,11 +2066,15 @@ Camera:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1256540915
 CanvasRenderer:
+<<<<<<< HEAD
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1455283876}
   m_Enabled: 1
@@ -1974,15 +2116,21 @@ CanvasRenderer:
 --- !u!4 &1455047296
 Transform:
 =======
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
   m_GameObject: {fileID: 1256540912}
   m_CullTransparentMesh: 0
 --- !u!1 &1408236258
 GameObject:
+<<<<<<< HEAD
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
 >>>>>>> parent of 7c854529... IK tentackle thingy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1455283876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -1997,6 +2145,8 @@ GameObject:
 --- !u!4 &1455047298
 Transform:
 =======
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1408236259}
@@ -2388,6 +2538,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1571887525}
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1613930583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,6 +2617,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613930583}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> parent of 7c854529... IK tentackle thingy
 =======
 >>>>>>> parent of 7c854529... IK tentackle thingy
 --- !u!1 &1633348390
@@ -2689,6 +2842,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+<<<<<<< HEAD
+>>>>>>> parent of 7c854529... IK tentackle thingy
+=======
 >>>>>>> parent of 7c854529... IK tentackle thingy
 --- !u!1 &1828070325 stripped
 GameObject:
